@@ -7,7 +7,7 @@ using namespace std;
 int main() {
     vector<string> s;
     char buf[20];
-    ifstream f("9.txt");
+    ifstream f("fin.txt");
     while (!f.eof()) {
         f >> buf;
         cout << buf << endl;
